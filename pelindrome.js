@@ -1,9 +1,9 @@
 let a="aba";
 let b="";
-for(let i=a.length;i<=0;i++){
-	b+=a;
+for(let i=a.length-1;i>=0;i--){
+	b+=a[i];
 }
-if(a===b){
+if(a==b){
 	console.log("Yes");
 }else{
 	console.log("No");
