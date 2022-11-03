@@ -1,11 +1,11 @@
-let a="aba";
-let b="";
-for(let i=a.length-1;i>=0;i--){
-	b+=a[i];
+let string="aba";
+let new_String="";
+for(let i=string.length-1;i>=0;i--){
+	new_String+=string[i];
 }
-if(a==b){
-	console.log("Yes");
+if(string==new_String){
+	console.log(string,"Yes,This is a palindromic srtring");
 }else{
-	console.log("No");
+	console.log(string,"No, This is not a palindromic string");
 }
 	

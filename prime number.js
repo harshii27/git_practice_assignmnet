@@ -1,12 +1,12 @@
 let a=27;
-let factor=0;
+let factors=0;
 for(let i=1;i<=a;i++){
 	if(a%i==0){
 		factor++;
 	}
 }
-if(factor==2){
-	console.log("Yes");
+if(factors==2){
+	console.log(a,"Yes,This is a prime number");
 }else{
-	console.log("No");
+	console.log(a,"No,This is not a prime number");
 }
